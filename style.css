@@ -1,0 +1,68 @@
+body{
+    font-family: 'Koh Santepheap', cursive;
+}
+.heading{
+    width: 100%;
+    text-align: left;
+    cursor: not-allowed;
+    font-family: 'Koh Santepheap', cursive;
+    box-shadow: 6px 6px 7px #22fac4;
+    
+}
+.heading h3{
+    display: inline;
+}
+.heading button{
+    float: right;
+    border: 3px double honeydew;
+}
+.big_image{
+    width: 100%;
+    cursor:progress;
+}
+#start{
+    font-size: 25px;
+    cursor: not-allowed;
+}
+#status{
+    font-size: 25px;
+    cursor:help;
+}
+#footer_div{
+    width: 100%;
+    bottom: 0px;
+    cursor: not-allowed;
+}
+#footer_div:hover{
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{
+        font-size: 20px;
+        font-weight: 700;
+        font-style:normal;
+        font-family:'Times New Roman', Times, serif ;
+        padding: 3px;
+        width: 90%;
+        word-spacing: 3px;
+        background-color: lawngreen;
+        color: maroon;
+        border: 3px dotted #fafa25;
+        box-shadow: 6px 6px 8px #2545fa;
+    }
+    to{
+        font-size: 30px;
+        font-weight: bold;
+        font-style: italic;
+        font-family: 'Gluten', cursive;
+        padding: 3px;
+        width: 90%;
+        word-spacing: 3px;
+        background-color:mediumblue;
+        color:papayawhip;
+        border: 6px double #7025fa;
+        box-shadow: 8px 8px 10px #fa255a;
+    }
+}
